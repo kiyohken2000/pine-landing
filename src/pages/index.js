@@ -19,108 +19,64 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
+              PINE proは既存の全てを超越する
               <br />
-              magna sed accumsan arcu neque.
+              超最強のメッセージングアプリです
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            PINE proの使用に必要なものはメールアドレスだけです。あなたの個人情報や追加料金は一切必要ありません。
+            初めて使う時からすでに手に馴染んでいるかのような明快なユーザーインターフェース、ミニマルで美しいデザイン、豊富な機能。
+            PINE proはあなたの日常のコミュニケーションをまったく新しい次元に引き上げます。
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
+          <div className="row">
+            <ul className="actions">
+              <li>
+                <a href="#" className="button">
+                  App Store
+                </a>
+              </li>
+              <li>
+                <a href="#" className="button">
+                  Google Play
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
+          <h2>PINE proのご紹介</h2>
 
           <Gallery />
-
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul>
+          
         </section>
 
         <section id="three">
-          <h2>Get In Touch</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
-                <div className="row uniform 50%">
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                </div>
-                <ul className="actions" style={{ marginTop: 30 }}>
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
-              </form>
+              <div className="row uniform 50%">
+              <h4>行動規範</h4>
+                <p>
+                  PINE proは、主にアプリユーザーの情報共有・交流・コラボレーションを目的とするコミュニティです。<br/>
+                  我々(PINE pro運営)はすべての参加者がそのコミュニティから歓迎され、楽しんで頂くことをめざしています。そのためには、PINE pro関連コミュニティにおける主催者やスタッフ、出展者、観客などのすべての参加者の皆様は、本行動規範に則って他の参加者に対して敬意と礼儀をもってコミュニティに参加いただくようにお願いいたします。<br/>
+                  PINE pro関連コミュニティでは全ての人を歓迎します。そのために、他の参加者が不快に感じる行為はそれがどのような形であっても許容いたしません。参加者の皆さまは他の参加者の様々な背景に配慮してください。あなたの何気ない投稿や行動で悲しむ人がいるかもしれません。注意深く、優しく振る舞ってください。我々運営は参加者の皆さまの権利を守るため、規範に反する方へ注意だけではなくコミュニティから退場させたり、場合によっては法的機関への相談など、適切と思われる対応をおこないます。もしあなた、ないしは他の参加者がハラスメント行為を受けた場合、お近くのPINE proスタッフにご相談いただくか、アプリに明記された連絡窓口にご連絡ください。お知らせ頂いた内容は法的な情報開示の必要性がある場合を除いて、あなたの同意がないかぎり匿名で扱いますのでご安心ください。
+                </p>
+              </div>
+              <div className="row uniform 50%">
+              <h4>プライバシポリシー</h4>
+                <p>
+                  PINE proは一切のユーザー情報を取得しません。ユーザーの個人情報には1ミリも興味がありません。これまでも、そしてこれからも。
+                </p>
+              </div>
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
                 <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
-                </li>
-                <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="mailto:pinepro.staff@gmail.com">pinepro.staff@gmail.com</a>
                 </li>
               </ul>
             </div>

@@ -5,30 +5,20 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
+          <a href="https://twitter.com/votepurchase" className="icon fa-twitter" target='_blank'>
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-github">
-            <span className="label">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-envelope-o">
+          <a href="mailto:pinepro.staff@gmail.com" className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>&copy; votepurchase</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Built with: <a href="https://reactnative.dev" target='_blank'>React Native</a>
         </li>
       </ul>
     </div>
