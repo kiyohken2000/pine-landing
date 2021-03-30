@@ -32,7 +32,7 @@ const HomeIndex = () => {
           <div className="row">
             <ul className="actions">
               <li>
-                <a href="https://apps.apple.com/us/app/pine-pro/id1560540009" className="button" target="_blank">
+                <a href="https://apps.apple.com/jp/app/pine-pro/id1560540009" className="button" target="_blank">
                   App Store
                 </a>
               </li>
