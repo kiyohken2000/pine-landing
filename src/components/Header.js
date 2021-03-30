@@ -14,7 +14,7 @@ const Header = () => (
         <br />
         Messaging app that transcends the existing
         <br />
-        crafted by <a href="https://twitter.com/votepurchase">@votepurchase</a>.
+        crafted by <a href="https://twitter.com/votepurchase" target="_blank">@votepurchase</a>.
       </h1>
     </div>
     <Footer />
